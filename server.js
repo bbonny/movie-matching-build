@@ -54,7 +54,7 @@ module.exports =
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
-  __webpack_require__(32);
+  __webpack_require__(34);
   
   var _path = __webpack_require__(8);
   
@@ -68,15 +68,15 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _reactDomServer = __webpack_require__(45);
+  var _reactDomServer = __webpack_require__(55);
   
   var _reactDomServer2 = _interopRequireDefault(_reactDomServer);
   
-  var _routes = __webpack_require__(23);
+  var _routes = __webpack_require__(26);
   
   var _routes2 = _interopRequireDefault(_routes);
   
-  var _componentsHtml = __webpack_require__(16);
+  var _componentsHtml = __webpack_require__(19);
   
   var _componentsHtml2 = _interopRequireDefault(_componentsHtml);
   
@@ -92,7 +92,7 @@ module.exports =
   //
   // Register API middleware
   // -----------------------------------------------------------------------------
-  server.use('/api/content', __webpack_require__(12));
+  server.use('/api/content', __webpack_require__(14));
   
   //
   // Register server-side rendering middleware
@@ -204,11 +204,11 @@ module.exports =
   
   // eslint-disable-line no-unused-vars
   
-  var _fbjsLibInvariant = __webpack_require__(34);
+  var _fbjsLibInvariant = __webpack_require__(36);
   
   var _fbjsLibInvariant2 = _interopRequireDefault(_fbjsLibInvariant);
   
-  var _fbjsLibExecutionEnvironment = __webpack_require__(5);
+  var _fbjsLibExecutionEnvironment = __webpack_require__(4);
   
   var count = 0;
   
@@ -358,6 +358,12 @@ module.exports =
 
 /***/ },
 /* 4 */
+/***/ function(module, exports) {
+
+  module.exports = require("fbjs/lib/ExecutionEnvironment");
+
+/***/ },
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -388,7 +394,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _coreLocation = __webpack_require__(21);
+  var _coreLocation = __webpack_require__(24);
   
   var _coreLocation2 = _interopRequireDefault(_coreLocation);
   
@@ -464,12 +470,6 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 5 */
-/***/ function(module, exports) {
-
-  module.exports = require("fbjs/lib/ExecutionEnvironment");
-
-/***/ },
 /* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -483,11 +483,11 @@ module.exports =
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
-  var _superagent = __webpack_require__(46);
+  var _superagent = __webpack_require__(56);
   
   var _superagent2 = _interopRequireDefault(_superagent);
   
-  var _fbjsLibExecutionEnvironment = __webpack_require__(5);
+  var _fbjsLibExecutionEnvironment = __webpack_require__(4);
   
   function getUrl(path) {
     if (path.startsWith('http') || _fbjsLibExecutionEnvironment.canUseDOM) {
@@ -537,6 +537,18 @@ module.exports =
 /* 9 */
 /***/ function(module, exports) {
 
+  module.exports = require("react-bootstrap/lib/Col");
+
+/***/ },
+/* 10 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/Row");
+
+/***/ },
+/* 11 */
+/***/ function(module, exports) {
+
   /**
    * React Routing | http://www.kriasoft.com/react-routing
    * Copyright (c) Konstantin Tarkus <hello@tarkus.me> | The MIT License
@@ -579,7 +591,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 10 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -599,11 +611,11 @@ module.exports =
   
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
   
-  var _pathToRegexp = __webpack_require__(31);
+  var _pathToRegexp = __webpack_require__(33);
   
   var _pathToRegexp2 = _interopRequireDefault(_pathToRegexp);
   
-  var _Match = __webpack_require__(9);
+  var _Match = __webpack_require__(11);
   
   var _Match2 = _interopRequireDefault(_Match);
   
@@ -631,7 +643,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 11 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -653,7 +665,7 @@ module.exports =
   
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
   
-  var _Route = __webpack_require__(10);
+  var _Route = __webpack_require__(12);
   
   var _Route2 = _interopRequireDefault(_Route);
   
@@ -958,7 +970,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 12 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -977,15 +989,15 @@ module.exports =
   
   var _express = __webpack_require__(7);
   
-  var _jade = __webpack_require__(40);
+  var _jade = __webpack_require__(42);
   
   var _jade2 = _interopRequireDefault(_jade);
   
-  var _frontMatter = __webpack_require__(35);
+  var _frontMatter = __webpack_require__(37);
   
   var _frontMatter2 = _interopRequireDefault(_frontMatter);
   
-  var _utilsFs = __webpack_require__(24);
+  var _utilsFs = __webpack_require__(27);
   
   var _utilsFs2 = _interopRequireDefault(_utilsFs);
   
@@ -1095,7 +1107,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 13 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1120,11 +1132,11 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _AppCss = __webpack_require__(25);
+  var _AppCss = __webpack_require__(28);
   
   var _AppCss2 = _interopRequireDefault(_AppCss);
   
-  var _decoratorsWithContext = __webpack_require__(22);
+  var _decoratorsWithContext = __webpack_require__(25);
   
   var _decoratorsWithContext2 = _interopRequireDefault(_decoratorsWithContext);
   
@@ -1132,11 +1144,11 @@ module.exports =
   
   var _decoratorsWithStyles2 = _interopRequireDefault(_decoratorsWithStyles);
   
-  var _Header = __webpack_require__(15);
+  var _Header = __webpack_require__(18);
   
   var _Header2 = _interopRequireDefault(_Header);
   
-  var _SearchBox = __webpack_require__(19);
+  var _SearchBox = __webpack_require__(22);
   
   var _SearchBox2 = _interopRequireDefault(_SearchBox);
   
@@ -1171,7 +1183,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 14 */
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1200,7 +1212,7 @@ module.exports =
   
   var _decoratorsWithStyles2 = _interopRequireDefault(_decoratorsWithStyles);
   
-  var _ErrorPageCss = __webpack_require__(26);
+  var _ErrorPageCss = __webpack_require__(29);
   
   var _ErrorPageCss2 = _interopRequireDefault(_ErrorPageCss);
   
@@ -1251,7 +1263,99 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 15 */
+/* 17 */
+/***/ function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
+  
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+  
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+  
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+  
+  function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+  
+  var _react = __webpack_require__(1);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _reactBootstrapLibDropdownButton = __webpack_require__(45);
+  
+  var _reactBootstrapLibDropdownButton2 = _interopRequireDefault(_reactBootstrapLibDropdownButton);
+  
+  var _reactBootstrapLibMenuItem = __webpack_require__(47);
+  
+  var _reactBootstrapLibMenuItem2 = _interopRequireDefault(_reactBootstrapLibMenuItem);
+  
+  var _reactBootstrapLibButton = __webpack_require__(44);
+  
+  var _reactBootstrapLibButton2 = _interopRequireDefault(_reactBootstrapLibButton);
+  
+  var GoogleSigninButton = (function (_Component) {
+    _inherits(GoogleSigninButton, _Component);
+  
+    function GoogleSigninButton() {
+      var _this = this;
+  
+      _classCallCheck(this, GoogleSigninButton);
+  
+      _get(Object.getPrototypeOf(GoogleSigninButton.prototype), 'constructor', this).apply(this, arguments);
+  
+      this.componentDidMount = function () {
+        gapi.signin2.render('g-signin2', {
+          'scope': 'profile email',
+          'onsuccess': _this.onSignIn
+        });
+      };
+  
+      this.onSignIn = function (googleUser) {
+        var profile = googleUser.getBasicProfile();
+        _this.setState({ profile: profile });
+        console.log(_this.state);
+      };
+  
+      this.signOut = function () {
+        var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function () {
+          this.setState({ profile: {} });
+          console.log('User signed out.');
+        }).bind(_this);
+      };
+    }
+  
+    _createClass(GoogleSigninButton, [{
+      key: 'render',
+      value: function render() {
+        if (this.state && this.state.profile) {
+          return _react2['default'].createElement(
+            _reactBootstrapLibDropdownButton2['default'],
+            { bsStyle: 'link', title: this.state.profile.getEmail() },
+            _react2['default'].createElement(
+              _reactBootstrapLibMenuItem2['default'],
+              { onClick: this.signOut },
+              'Sign out'
+            )
+          );
+        }
+        return _react2['default'].createElement('div', { id: 'g-signin2', 'data-onsuccess': this.onSignIn });
+      }
+    }]);
+  
+    return GoogleSigninButton;
+  })(_react.Component);
+  
+  exports['default'] = GoogleSigninButton;
+  module.exports = exports['default'];
+
+/***/ },
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1276,52 +1380,87 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _HeaderCss = __webpack_require__(27);
+  var _GoogleSigninButton = __webpack_require__(17);
   
-  var _HeaderCss2 = _interopRequireDefault(_HeaderCss);
+  var _GoogleSigninButton2 = _interopRequireDefault(_GoogleSigninButton);
   
-  var _decoratorsWithStyles = __webpack_require__(2);
+  var _reactBootstrapLibNavbar = __webpack_require__(50);
   
-  var _decoratorsWithStyles2 = _interopRequireDefault(_decoratorsWithStyles);
+  var _reactBootstrapLibNavbar2 = _interopRequireDefault(_reactBootstrapLibNavbar);
   
-  var _Link = __webpack_require__(4);
+  var _reactBootstrapLibNavbarHeader = __webpack_require__(53);
   
-  var _Link2 = _interopRequireDefault(_Link);
+  var _reactBootstrapLibNavbarHeader2 = _interopRequireDefault(_reactBootstrapLibNavbarHeader);
+  
+  var _reactBootstrapLibNavbarBrand = __webpack_require__(51);
+  
+  var _reactBootstrapLibNavbarBrand2 = _interopRequireDefault(_reactBootstrapLibNavbarBrand);
+  
+  var _reactBootstrapLibNavbarCollapse = __webpack_require__(52);
+  
+  var _reactBootstrapLibNavbarCollapse2 = _interopRequireDefault(_reactBootstrapLibNavbarCollapse);
+  
+  var _reactBootstrapLibNavbarToggle = __webpack_require__(54);
+  
+  var _reactBootstrapLibNavbarToggle2 = _interopRequireDefault(_reactBootstrapLibNavbarToggle);
+  
+  var _reactBootstrapLibNavItem = __webpack_require__(49);
+  
+  var _reactBootstrapLibNavItem2 = _interopRequireDefault(_reactBootstrapLibNavItem);
+  
+  var _reactBootstrapLibNav = __webpack_require__(48);
+  
+  var _reactBootstrapLibNav2 = _interopRequireDefault(_reactBootstrapLibNav);
+  
+  var _reactBootstrapLibCol = __webpack_require__(9);
+  
+  var _reactBootstrapLibCol2 = _interopRequireDefault(_reactBootstrapLibCol);
+  
+  var _reactBootstrapLibRow = __webpack_require__(10);
+  
+  var _reactBootstrapLibRow2 = _interopRequireDefault(_reactBootstrapLibRow);
   
   var Header = (function (_Component) {
     _inherits(Header, _Component);
   
     function Header() {
-      _classCallCheck(this, _Header);
+      _classCallCheck(this, Header);
   
-      _get(Object.getPrototypeOf(_Header.prototype), 'constructor', this).apply(this, arguments);
+      _get(Object.getPrototypeOf(Header.prototype), 'constructor', this).apply(this, arguments);
     }
   
     _createClass(Header, [{
       key: 'render',
       value: function render() {
         return _react2['default'].createElement(
-          'div',
-          { className: 'Header' },
+          _reactBootstrapLibNavbar2['default'],
+          null,
           _react2['default'].createElement(
-            'div',
-            { className: 'Header-container' },
+            _reactBootstrapLibNavbarHeader2['default'],
+            null,
             _react2['default'].createElement(
-              'a',
-              { className: 'Header-brand', href: '/', onClick: _Link2['default'].handleClick },
+              _reactBootstrapLibNavbarBrand2['default'],
+              null,
               _react2['default'].createElement(
-                'span',
-                { className: 'Header-brandTxt' },
+                'a',
+                { href: '#' },
                 'Home'
               )
+            )
+          ),
+          _react2['default'].createElement(
+            _reactBootstrapLibNavbarCollapse2['default'],
+            null,
+            _react2['default'].createElement(
+              _reactBootstrapLibNav2['default'],
+              { pullRight: true },
+              _react2['default'].createElement(_GoogleSigninButton2['default'], null)
             )
           )
         );
       }
     }]);
   
-    var _Header = Header;
-    Header = (0, _decoratorsWithStyles2['default'])(_HeaderCss2['default'])(Header) || Header;
     return Header;
   })(_react.Component);
   
@@ -1329,7 +1468,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 16 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1354,7 +1493,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _config = __webpack_require__(20);
+  var _config = __webpack_require__(23);
   
   var Html = (function (_Component) {
     _inherits(Html, _Component);
@@ -1389,6 +1528,8 @@ module.exports =
             ),
             _react2['default'].createElement('meta', { name: 'description', content: this.props.description }),
             _react2['default'].createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }),
+            _react2['default'].createElement('meta', { name: 'google-signin-client_id', content: '840821061060-afur3pd99oahbiivv2acah3vt6md29ud.apps.googleusercontent.com' }),
+            _react2['default'].createElement('script', { src: 'https://apis.google.com/js/platform.js', async: true, defer: true }),
             _react2['default'].createElement('link', { rel: 'apple-touch-icon', href: 'apple-touch-icon.png' }),
             _react2['default'].createElement('link', {
               rel: 'stylesheet',
@@ -1429,7 +1570,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 17 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1458,7 +1599,7 @@ module.exports =
   
   var _decoratorsWithStyles2 = _interopRequireDefault(_decoratorsWithStyles);
   
-  var _NotFoundPageCss = __webpack_require__(28);
+  var _NotFoundPageCss = __webpack_require__(30);
   
   var _NotFoundPageCss2 = _interopRequireDefault(_NotFoundPageCss);
   
@@ -1510,7 +1651,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 18 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1533,7 +1674,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Link = __webpack_require__(4);
+  var _Link = __webpack_require__(5);
   
   var _Link2 = _interopRequireDefault(_Link);
   
@@ -1571,7 +1712,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 19 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1594,23 +1735,23 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _reactBootstrapLibInput = __webpack_require__(43);
+  var _reactBootstrapLibInput = __webpack_require__(46);
   
   var _reactBootstrapLibInput2 = _interopRequireDefault(_reactBootstrapLibInput);
   
-  var _reactBootstrapLibCol = __webpack_require__(42);
+  var _reactBootstrapLibCol = __webpack_require__(9);
   
   var _reactBootstrapLibCol2 = _interopRequireDefault(_reactBootstrapLibCol);
   
-  var _reactBootstrapLibRow = __webpack_require__(44);
+  var _reactBootstrapLibRow = __webpack_require__(10);
   
   var _reactBootstrapLibRow2 = _interopRequireDefault(_reactBootstrapLibRow);
   
-  var _jquery = __webpack_require__(41);
+  var _jquery = __webpack_require__(43);
   
   var _jquery2 = _interopRequireDefault(_jquery);
   
-  var _SearchBoxCss = __webpack_require__(29);
+  var _SearchBoxCss = __webpack_require__(31);
   
   var _SearchBoxCss2 = _interopRequireDefault(_SearchBoxCss);
   
@@ -1618,11 +1759,11 @@ module.exports =
   
   var _decoratorsWithStyles2 = _interopRequireDefault(_decoratorsWithStyles);
   
-  var _Link = __webpack_require__(4);
+  var _Link = __webpack_require__(5);
   
   var _Link2 = _interopRequireDefault(_Link);
   
-  var _SCSmallEntry = __webpack_require__(18);
+  var _SCSmallEntry = __webpack_require__(21);
   
   var _SCSmallEntry2 = _interopRequireDefault(_SCSmallEntry);
   
@@ -1724,7 +1865,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 20 */
+/* 23 */
 /***/ function(module, exports) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1740,7 +1881,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 21 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1753,17 +1894,17 @@ module.exports =
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
-  var _fbjsLibExecutionEnvironment = __webpack_require__(5);
+  var _fbjsLibExecutionEnvironment = __webpack_require__(4);
   
-  var _historyLibCreateBrowserHistory = __webpack_require__(37);
+  var _historyLibCreateBrowserHistory = __webpack_require__(39);
   
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
   
-  var _historyLibCreateMemoryHistory = __webpack_require__(38);
+  var _historyLibCreateMemoryHistory = __webpack_require__(40);
   
   var _historyLibCreateMemoryHistory2 = _interopRequireDefault(_historyLibCreateMemoryHistory);
   
-  var _historyLibUseQueries = __webpack_require__(39);
+  var _historyLibUseQueries = __webpack_require__(41);
   
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
   
@@ -1773,7 +1914,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 22 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1802,7 +1943,7 @@ module.exports =
   
   // eslint-disable-line no-unused-vars
   
-  var _fbjsLibEmptyFunction = __webpack_require__(33);
+  var _fbjsLibEmptyFunction = __webpack_require__(35);
   
   var _fbjsLibEmptyFunction2 = _interopRequireDefault(_fbjsLibEmptyFunction);
   
@@ -1868,7 +2009,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 23 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1887,7 +2028,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _reactRoutingSrcRouter = __webpack_require__(11);
+  var _reactRoutingSrcRouter = __webpack_require__(13);
   
   var _reactRoutingSrcRouter2 = _interopRequireDefault(_reactRoutingSrcRouter);
   
@@ -1895,15 +2036,15 @@ module.exports =
   
   var _coreHttpClient2 = _interopRequireDefault(_coreHttpClient);
   
-  var _componentsApp = __webpack_require__(13);
+  var _componentsApp = __webpack_require__(15);
   
   var _componentsApp2 = _interopRequireDefault(_componentsApp);
   
-  var _componentsNotFoundPage = __webpack_require__(17);
+  var _componentsNotFoundPage = __webpack_require__(20);
   
   var _componentsNotFoundPage2 = _interopRequireDefault(_componentsNotFoundPage);
   
-  var _componentsErrorPage = __webpack_require__(14);
+  var _componentsErrorPage = __webpack_require__(16);
   
   var _componentsErrorPage2 = _interopRequireDefault(_componentsErrorPage);
   
@@ -1957,7 +2098,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 24 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
   /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
@@ -1970,7 +2111,7 @@ module.exports =
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
-  var _fs = __webpack_require__(36);
+  var _fs = __webpack_require__(38);
   
   var _fs2 = _interopRequireDefault(_fs);
   
@@ -1996,7 +2137,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 25 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(3)();
@@ -2010,7 +2151,7 @@ module.exports =
 
 
 /***/ },
-/* 26 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(3)();
@@ -2024,21 +2165,7 @@ module.exports =
 
 
 /***/ },
-/* 27 */
-/***/ function(module, exports, __webpack_require__) {
-
-  exports = module.exports = __webpack_require__(3)();
-  // imports
-  
-  
-  // module
-  exports.push([module.id, "/* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */\n\n/* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */\n\n:root {\n\n  /*\n   * Colors\n   * ======================================================================== */ /* #222 */   /* #404040 */ /* #555 */ /* #777 */ /* #eee */\n\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Animations\n   * ======================================================================== */\n\n}\n\n.Header {\n  background: #627990;\n  color: #fff;\n  height: 70px;\n}\n\n.Header-container {\n  margin: 0 auto;\n  padding: 20px 0;\n  max-width: 1000px;\n}\n\n.Header-brand {\n  color: rgb(97, 218, 251);\n  margin-top: 10px;\n  text-decoration: none;\n  font-size: 1.75em; /* ~28px */\n  position: fixed;\n  left: 50%;\n  border-width: 4px;\n  -webkit-transform: translate(-50%, -50%);\n      -ms-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n}\n\n.Header-brandTxt {\n  margin-left: 0px;\n}\n\n.Header-nav {\n  float: right;\n  margin-top: 6px;\n}\n\n.Header-banner {\n  text-align: center;\n}\n\n.Header-bannerTitle {\n  margin: 0;\n  padding: 10px;\n  font-weight: normal;\n  font-size: 4em;\n  line-height: 1em;\n}\n\n.Header-bannerDesc {\n  padding: 0;\n  color: #FFFFFF;\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n  margin: 0;\n}\n", ""]);
-  
-  // exports
-
-
-/***/ },
-/* 28 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(3)();
@@ -2052,7 +2179,7 @@ module.exports =
 
 
 /***/ },
-/* 29 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(3)();
@@ -2066,7 +2193,7 @@ module.exports =
 
 
 /***/ },
-/* 30 */
+/* 32 */
 /***/ function(module, exports) {
 
   module.exports = Array.isArray || function (arr) {
@@ -2075,10 +2202,10 @@ module.exports =
 
 
 /***/ },
-/* 31 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
-  var isarray = __webpack_require__(30)
+  var isarray = __webpack_require__(32)
   
   /**
    * Expose `pathToRegexp`.
@@ -2471,91 +2598,139 @@ module.exports =
 
 
 /***/ },
-/* 32 */
+/* 34 */
 /***/ function(module, exports) {
 
   module.exports = require("babel-core/polyfill");
 
 /***/ },
-/* 33 */
+/* 35 */
 /***/ function(module, exports) {
 
   module.exports = require("fbjs/lib/emptyFunction");
 
 /***/ },
-/* 34 */
+/* 36 */
 /***/ function(module, exports) {
 
   module.exports = require("fbjs/lib/invariant");
 
 /***/ },
-/* 35 */
+/* 37 */
 /***/ function(module, exports) {
 
   module.exports = require("front-matter");
 
 /***/ },
-/* 36 */
+/* 38 */
 /***/ function(module, exports) {
 
   module.exports = require("fs");
 
 /***/ },
-/* 37 */
+/* 39 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
-/* 38 */
+/* 40 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createMemoryHistory");
 
 /***/ },
-/* 39 */
+/* 41 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ },
-/* 40 */
+/* 42 */
 /***/ function(module, exports) {
 
   module.exports = require("jade");
 
 /***/ },
-/* 41 */
+/* 43 */
 /***/ function(module, exports) {
 
   module.exports = require("jquery");
 
 /***/ },
-/* 42 */
-/***/ function(module, exports) {
-
-  module.exports = require("react-bootstrap/lib/Col");
-
-/***/ },
-/* 43 */
-/***/ function(module, exports) {
-
-  module.exports = require("react-bootstrap/lib/Input");
-
-/***/ },
 /* 44 */
 /***/ function(module, exports) {
 
-  module.exports = require("react-bootstrap/lib/Row");
+  module.exports = require("react-bootstrap/lib/Button");
 
 /***/ },
 /* 45 */
 /***/ function(module, exports) {
 
-  module.exports = require("react-dom/server");
+  module.exports = require("react-bootstrap/lib/DropdownButton");
 
 /***/ },
 /* 46 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/Input");
+
+/***/ },
+/* 47 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/MenuItem");
+
+/***/ },
+/* 48 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/Nav");
+
+/***/ },
+/* 49 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/NavItem");
+
+/***/ },
+/* 50 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/Navbar");
+
+/***/ },
+/* 51 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/NavbarBrand");
+
+/***/ },
+/* 52 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/NavbarCollapse");
+
+/***/ },
+/* 53 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/NavbarHeader");
+
+/***/ },
+/* 54 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-bootstrap/lib/NavbarToggle");
+
+/***/ },
+/* 55 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-dom/server");
+
+/***/ },
+/* 56 */
 /***/ function(module, exports) {
 
   module.exports = require("superagent");
